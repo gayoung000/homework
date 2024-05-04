@@ -6,8 +6,8 @@
 ## [HTML]
 1. css 파일과 nomalize, reset 스타일시트 연결.
 2. main 안에 container를 div로 만들고 "아바타 상태 관리 박스"라 칭함.
-3. img와 상태 원을 하나의 세트로 관리하기 위해 이를 "avatars-setbox"란 div로 묶어줬다. 
-   -> 이렇게 "avatars-setbox"는 총 8개가 나온다.
+3. img와 상태 원을 하나의 세트로 관리하기 위해 이를 "avatars-setbox"란 div로 묶어줬다. <br/>
+   -> 이렇게 "avatars-setbox"는 총 8개가 나온다. <br/>
 4. 상태 원 class 에 on/off 두가지를 각각 맞게 부여.
 <br/>
 <br/>
