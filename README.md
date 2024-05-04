@@ -31,38 +31,38 @@
 <br/>
 
 ## [CSS - float 이용]
-1. container 
--> margin: 0 auto;
--> 너비, 높이 지정
--> display: flow-root; (아직 이거 이해 안됨)
+1. container <br/>
+-> margin: 0 auto; <br/>
+-> 너비, 높이 지정 <br/>
+-> display: flow-root; (아직 이거 이해 안됨) 
 
-2. .avatars-setbox
--> position: relative; (부모 역할)
--> float: left; (float 되어 왼쪽에 위치)
+2. .avatars-setbox <br/>
+-> position: relative; (부모 역할) <br/>
+-> float: left; (float 되어 왼쪽에 위치) <br/>
 
-3. .on/.off
--> position: absolute; (자식 역할로 avatars-setbox 안에 있게 됨)
+3. .on/.off <br/>
+-> position: absolute; (자식 역할로 avatars-setbox 안에 있게 됨) <br/>
 -> right: 0;, bottom: 0; (부모 안에서 위치 지정)
 <br/>
 <br/>
 
 ## [CSS - flex 이용]
-1. container 
--> margin: 0 auto;
--> 너비, 높이 지정
--> display: flex;
--> flex-flow: row wrap;
--> justify-content: space-evenly;
+1. container <br/>
+-> margin: 0 auto; <br/>
+-> 너비, 높이 지정 <br/>
+-> display: flex; <br/>
+-> flex-flow: row wrap; <br/>
+-> justify-content: space-evenly; <br/>
 
-2. .avatars-setbox
--> position: relative; (부모 역할)
--> display: inline-block; (인라인 블록요소로 옆에 나열될 수 있게 함)
+2. .avatars-setbox <br/>
+-> position: relative; (부모 역할) <br/>
+-> display: inline-block; (인라인 블록요소로 옆에 나열될 수 있게 함) <br/>
 
-3. .on/.off
--> position: absolute; (자식 역할로 avatars-setbox 안에 있게 됨)
--> right: 0;, bottom: 0; (부모 안에서 위치 지정)
+3. .on/.off <br/>
+-> position: absolute; (자식 역할로 avatars-setbox 안에 있게 됨) <br/>
+-> right: 0;, bottom: 0; (부모 안에서 위치 지정) <br/>
 
-4. .avatars-setbox에서 order로 위치 바꿈! 항상 order을 하려면 부모 요소에 flex 속성이 있어야 함.
+4. .avatars-setbox에서 order로 위치 바꿈! 항상 order을 하려면 부모 요소에 flex 속성이 있어야 함. 
 <br/>
 <br/>
 
