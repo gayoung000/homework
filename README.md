@@ -1,7 +1,7 @@
 # homework
 테킷 프론트엔드 스쿨 10기 과제 저장소
 
-##[HTML]
+## [HTML]
 1. css 파일과 nomalize, reset 스타일시트 연결.
 2. main 안에 container를 div로 만들고 "아바타 상태 관리 박스"라 칭함.
 3. img와 상태 원을 하나의 세트로 관리하기 위해 이를 "avatars-setbox"란 div로 묶어줬다. 
@@ -9,7 +9,7 @@
 4. 상태 원 class 에 on/off 두가지를 각각 맞게 부여.
 
 
-##[CSS 공통 부분]
+## [CSS 공통 부분]
 1. main, container 크기 설정 
 : 우선 main과 container은 같은 width: 350px을 줬다. 350 준 이유는 그 뒤에 나온다.
 
@@ -27,7 +27,7 @@
 5. 상태 on/off는 알잘딱깔센으로 크기, 모양, 색 지정해주고 position: absolute; right: 0; bottom: 0; 을 주어 이미지와 겹치게 했다.
 
 
-##[CSS - float 이용]
+## [CSS - float 이용]
 1. container 
 -> margin: 0 auto;
 -> 너비, 높이 지정
@@ -42,7 +42,7 @@
 -> right: 0;, bottom: 0; (부모 안에서 위치 지정)
 
 
-##[CSS - float 이용]
+## [CSS - float 이용]
 1. container 
 -> margin: 0 auto;
 -> 너비, 높이 지정
@@ -61,18 +61,18 @@
 4. .avatars-setbox에서 order로 위치 바꿈! 항상 order을 하려면 부모 요소에 flex 속성이 있어야 함.
 
 
-##[avatars2.css]
+## [avatars2.css]
 : avatars2.css는 flex를 사용했을 때의 레이아웃을 따로 만든 것으로, 과제용은 아니고 개인적으로 만든 파일이다. 
 
 ---
 
 
-##[과제 시 궁금점]
+## [과제 시 궁금점]
 1. 아까 [CSS 공통 부분] 4번이 궁금
 2. css에서 order 순서 변경 해도 스크린 리더는 css 변경 사항을 반영 안하고 HTML 순서 그대로 읽음. 
 
 
-##[과제 시 느낀점]
+## [과제 시 느낀점]
 1. 이거 하나 하기에도 시간이 오래 걸렸다.
 2. README.md도 마크업으로 이쁘게 만들고 싶지만 1번의 이유로 지쳤다.
 3. 이해 안된 부분은 꼭 확실히 알아두자!
