@@ -1,0 +1,16 @@
+:root {
+  --container-size: 500px;
+}
+
+.main {
+  width: var(--container-size, 500px);
+  margin: 0 auto;
+}
+
+
+img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 10px;
+}
