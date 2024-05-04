@@ -70,65 +70,33 @@
   /* 자식 요소 order하려면 바로 상위 부모에 display: flex;가 있어야 함. */
   .avatars-setbox7 {
     order: 1;
-
-    &[aria-selected="true"] {
-      order: 1;
-    }
   }
 
   .avatars-setbox5 {
     order: 2;
-
-    &[aria-selected="true"] {
-      order: 2;
-    }
   }
 
   .avatars-setbox6 {
     order: 3;
-
-    &[aria-selected="true"] {
-      order: 3;
-    }
   }
 
   .avatars-setbox8 {
     order: 4;
-
-    &[aria-selected="true"] {
-      order: 4;
-    }
   }
 
   .avatars-setbox1 {
     order: 5;
-
-    &[aria-selected="true"] {
-      order: 5;
-    }
   }
 
   .avatars-setbox2 {
     order: 6;
-
-    &[aria-selected="true"] {
-      order: 6;
-    }
   }
 
   .avatars-setbox3 {
     order: 7;
-
-    &[aria-selected="true"] {
-      order: 7;
-    }
   }
 
   .avatars-setbox4 {
     order: 8;
-
-    &[aria-selected="true"] {
-      order: 8;
-    }
   }
 }
