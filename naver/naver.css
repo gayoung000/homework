@@ -1,0 +1,30 @@
+/* CSS를 활용하여 레이아웃 및 스타일링을 완성해주세요 */
+@import url(/naver/style/reset.css);
+@import url(/naver/style/theme.css);
+@import url(/naver/style/base.css);
+
+:root {
+  --base-color: #181818;
+  /* --base-fontSize: 16px; */
+  --base-fontSize: 16px;
+  --focus-color: #24388d;
+  --primary-color: #03cf5d;
+}
+
+
+html,
+body {
+  font-size: 1rem;
+  color: var(--base-color);
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  inline-size: 100vw;
+  height: 100vh;
+  block-size: 100vh;
+}
