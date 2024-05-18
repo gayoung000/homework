@@ -1,0 +1,87 @@
+@import url(/apple/apple/styles/base.css);
+@import url(/apple/apple/styles/reset.css);
+@import url(/apple/apple/styles/theme.css);
+
+/* 카드 컴포넌트 스타일 */
+
+.card-wrapper {
+  width: 100vw;
+  height: var(--size);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* 배경 이미지 스타일 */
+  /* background: image-set(url(/apple/apple/products/ipad_pro.jpeg) 1x,
+      url(/apple/apple/products/ipad_pro_2x.jpeg) 2x); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.card-text-wrapper {
+  color: var(--white);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 0 var(--small-spacing);
+
+  h2 {
+    font-size: var(--large-text);
+    font-weight: bold;
+    padding-top: var(--large-spacing);
+  }
+
+  p {
+    /* padding-bottom: var(--x-small-spacing); */
+    margin: var(--small-spacing) 0;
+  }
+
+  .subhead {
+    font-size: var(--base-text);
+    line-height: var(--line-normal);
+
+    .br-small {
+      display: block;
+    }
+  }
+
+  .callout {
+    font-size: var(--small-text);
+    color: #86868B;
+    margin-top: 0;
+  }
+
+  .button-link {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: var(--base-spacing);
+
+    button,
+    button::before,
+    button::after {
+      font-size: var(--xx-small-text);
+      text-decoration: none;
+      text-align: center;
+      padding: var(--small-spacing);
+      border-radius: 2rem;
+      border-style: none;
+      color: var(--white);
+    }
+
+    .more-button {
+      background-color: var(--blue-300);
+    }
+
+    .price-button {
+      color: var(--blue-100);
+      background-color: transparent;
+      border: 1px solid var(--blue-100);
+
+      &:hover {
+        background-color: var(--blue-300);
+        color: var(--white);
+      }
+    }
+  }
+}

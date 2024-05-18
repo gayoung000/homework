@@ -1,90 +1,46 @@
-@import url(/apple/apple/styles/base.css);
-@import url(/apple/apple/styles/reset.css);
-@import url(/apple/apple/styles/theme.css);
+@import url(/apple/apple/styles/card.css);
 
-
-/* 카드 컴포넌트 */
+/* 카드 레이아웃 */
 .box {
-  width: 100%;
-  height: var(--size);
-  /* 배경 이미지 코드 */
-  background: image-set(url(/apple/apple/products/ipad_pro.jpeg) 1x,
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 12px;
+}
+
+/* 카드 이미지 변경 */
+.card-1 {
+
+  background-image: image-set(url(../products/ipad_pro.jpeg) 1x,
       url(/apple/apple/products/ipad_pro_2x.jpeg) 2x);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vw;
 }
 
-.card-wrapper {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+.card-2 {
+  background-image: image-set(url(../products/ipad_air.jpeg) 1x,
+      url(../products/ipad_air_2x.jpeg) 2x);
 }
 
-.card-text-wrapper {
-  color: var(--white);
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  padding: 0 var(--small-spacing);
+.card-3 {
+  background-image: image-set(url(../products/iphone15_pro.jpeg) 1x,
+      url(../products/iphone15_pro_2x.jpeg) 2x);
+}
 
-  h2 {
-    font-size: var(--large-text);
-    font-weight: bold;
-    padding-top: var(--large-spacing);
-  }
+.card-4 {
+  background-image: image-set(url(../products/iphone15.jpeg) 1x,
+      url(../products/iphone15_2x.jpeg) 2x);
+}
 
-  p {
-    /* padding-bottom: var(--x-small-spacing); */
-    margin: var(--small-spacing) 0;
-  }
+.card-5 {
+  background-image: image-set(url(../products/apple_watch.jpeg) 1x,
+      url(../products/apple_watch_2x.jpeg) 2x);
+}
 
-  .subhead {
-    font-size: var(--base-text);
-    line-height: var(--line-normal);
+.card-6 {
+  background-image: image-set(url(../products/macbook_air.jpeg) 1x,
+      url(../products/macbook_air_2x.jpeg) 2x);
+}
 
-    .br-small {
-      display: block;
-    }
-  }
-
-  .callout {
-    font-size: var(--small-text);
-    color: #86868B;
-    margin-top: 0;
-  }
-
-  .button-link {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: var(--base-spacing);
-
-    button,
-    button::before,
-    button::after {
-      font-size: var(--xx-small-text);
-      text-decoration: none;
-      text-align: center;
-      padding: var(--small-spacing);
-      border-radius: 2rem;
-      border-style: none;
-      color: var(--white);
-    }
-
-    .more-button {
-      background-color: var(--blue-300);
-    }
-
-    .price-button {
-      color: var(--blue-100);
-      background-color: transparent;
-      border: 1px solid var(--blue-100);
-
-      &:hover {
-        background-color: var(--blue-300);
-        color: var(--white);
-      }
-    }
-  }
+.card-7 {
+  background-image: image-set(url(../products/airpods_pro.jpeg) 1x,
+      url(../products/airpods_pro_2x.jpeg) 2x);
 }
