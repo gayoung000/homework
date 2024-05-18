@@ -24,8 +24,8 @@
 
 ### :sunny: 카드 컴포넌트화
 카드 컴포넌트 결과다. <br>
-![카드 컴포넌트](https://github.com/gayoung000/homework/blob/main/readme_images/apple/card_component.gif)
-
+<img src="https://github.com/gayoung000/homework/blob/main/readme_images/apple/card_component.gif" width="80%" height="80%"/>
+<br>
 <br>
 
 ### :sunny: 그리드 레이아웃
@@ -33,12 +33,25 @@
 * html에서 카드 컴포넌트를 총 7개 만들고, 컴포넌트 컨테이너인 .box에 "display: gird;" 속성과 columns 줄은 1줄, row 줄은 auto로 설정했다.<br>
 * 카드 1~6 까지 background-image 변경
 * 미디어쿼리 속성을 사용해 최소 크기가 1024px일 때, .box 그리드를 2줄로 만들었다. 또한 card 1~3은 columns를 다 차지하도록 설정했다. <br>
-![최종 이미지](https://github.com/gayoung000/homework/blob/main/readme_images/apple/마감준수_최종.gif) 
+<img src="https://github.com/gayoung000/homework/blob/main/readme_images/apple/마감준수_최종.gif" width="80%" height="80%"/>
 <br>
 <br>
 
 ## 과제 시 어려움
 * 그리드 레이아웃을 만드는 과정에서 그리드 적용이 이상하게 되었다. 분명 카드 3개에게 column 2개를 다 차지하도록 했는데 1개만 차지하고, 무엇보다 가로 스크롤이 생기는 문제가 있었다.<br>
-![과제 시 어려움](https://github.com/gayoung000/homework/blob/main/readme_images/apple/과제시_어려움.gif)
+<img src="https://github.com/gayoung000/homework/blob/main/readme_images/apple/과제시_어려움.gif" width="80%" height="80%"/><br>
 :heavy_exclamation_mark: **카드 컴포넌트 최상단인 .card-wrapper에 "width: 100vw;"를 줬었는데 100%로 고치니 문제가 해결되었다.**<br>
 :heavy_exclamation_mark: **아직도 왜 이런 현상이 일어났는지 모르겠다.. 다시 이 차이점에 대해 공부를 해야겠다!**<br>
+
+<br>
+<br>
+
+# 과제 마감시간 이후 작업
+* html text 내용 바꾸기 :white_check_mark:
+* 흰색 배경 카드 폰트 컬러 블랙으로 지정 :white_check_mark:
+* Large Screen 상단 여백, 글자 크기 바꾸기 :white_check_mark:
+* 카드 6번의 background-position을 y축 방향으로 조금 내렸다. :white_check_mark:
+* 카드 범위 내 어디를 눌러도 link로 연결되게 하기(추가로 하면 좋을 것!)
+* navigation 바 만들기(추가로 하면 좋을 것!)<br>
+
+![최종](https://github.com/gayoung000/homework/blob/main/readme_images/apple/최종.gif)
