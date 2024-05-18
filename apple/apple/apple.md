@@ -22,6 +22,24 @@
 <img src="https://github.com/gayoung000/homework/blob/main/readme_images/apple/html구조.jpeg" width="25%" height="25%"/>
 <br>
 
+```html
+<div class="card-wrapper card-1">
+  <a href="/" class="card-link-wrapper" target="_self" aria-hidden="true"></a>
+  <article class="card-text-wrapper">
+    <h2>iPad Pro</h2>
+    <p class="subhead">놀라우리만치 얇다.
+      <br class="br-small">엄청나게 강력하다.
+    </p>
+    <p class="callout">출시일 추후 공개</p>
+    <div class="button-link">
+      <button class="more-button" type="button" onclick="location.href='/'">더 알아보기</button>
+      <button class="price-button" type="button" onclick="location.href='/'">가격 보기</button>
+    </div>
+  </article>
+</div>
+```
+<br>
+
 ### :sunny: 카드 컴포넌트화
 카드 컴포넌트 결과다. <br>
 <img src="https://github.com/gayoung000/homework/blob/main/readme_images/apple/card_component.gif" width="80%" height="80%"/>
@@ -54,4 +72,4 @@
 * 카드 범위 내 어디를 눌러도 link로 연결되게 하기(추가로 하면 좋을 것!)
 * navigation 바 만들기(추가로 하면 좋을 것!)<br>
 
-![최종](https://github.com/gayoung000/homework/blob/main/readme_images/apple/최종.gif)
+![최종](https://github.com/gayoung000/homework/blob/main/readme_images/apple/최종2.gif)
