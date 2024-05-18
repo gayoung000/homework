@@ -1,3 +1,5 @@
-@import url(card-component.css);
+@import url(/apple/apple/styles/base.css);
+@import url(/apple/apple/styles/reset.css);
+@import url(/apple/apple/styles/theme.css);
 
 /* 카드 레이아웃 */

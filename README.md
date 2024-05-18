@@ -10,3 +10,7 @@
 
 ## 2차 과제 : 
 -> [Navar](https://github.com/gayoung000/homework/blob/main/naver/naver.md)
+
+
+## 3차 과제 : 
+-> [apple](https://github.com/gayoung000/homework/blob/main/apple/apple/apple.md)
