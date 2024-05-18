@@ -70,7 +70,6 @@
 .card-6 {
   background-image: image-set(url(../products/macbook_air.jpeg) 1x,
       url(../products/macbook_air_2x.jpeg) 2x);
-  background-position: 50% 50px;
 }
 
 .card-7 {
