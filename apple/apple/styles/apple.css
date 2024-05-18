@@ -15,6 +15,30 @@
   grid-auto-rows: auto;
   grid-gap: 12px;
   /* min-width: 100% */
+
+  /* 흰 배경 카드 스타일 지정 */
+  .card-text-wrapper {
+    &.white-b {
+      color: var(--black);
+
+      .button-link {
+        .more-button {
+          background-color: var(--black);
+        }
+
+        .price-button {
+          color: var(--black);
+          background-color: transparent;
+          border: 1px solid var(--black);
+
+          &:hover {
+            background-color: var(--black);
+            color: var(--white);
+          }
+        }
+      }
+    }
+  }
 }
 
 /* 카드 이미지 변경 */
@@ -46,6 +70,7 @@
 .card-6 {
   background-image: image-set(url(../products/macbook_air.jpeg) 1x,
       url(../products/macbook_air_2x.jpeg) 2x);
+  background-position: 50% 50px;
 }
 
 .card-7 {
@@ -62,22 +87,47 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+    /* full 폭 카드 그리드 레이아웃 */
+    .card-1,
+    .card-2,
+    .card-3 {
+      grid-column: 1 / -1;
+    }
+
     .card-1 {
       background-image: image-set(url(../products/ipad_pro_wide.jpeg) 1x,
           url(../products/ipad_pro_wide_2x.jpeg) 2x);
-      grid-column: 1 / -1;
     }
 
     .card-2 {
       background-image: image-set(url(../products/ipad_air_wide.jpeg) 1x,
           url(../products/ipad_air_wide_2x.jpeg) 2x);
-      grid-column: 1 / -1;
     }
 
     .card-3 {
       background-image: image-set(url(../products/iphone15_pro_wide.jpeg) 1x,
           url(../products/iphone15_pro_wide_2x.jpeg) 2x);
-      grid-column: 1 / -1;
+    }
+  }
+
+  /* 기타 폰트 및 여백 사이즈 변경 */
+  .card-text-wrapper {
+    h2 {
+      font-size: var(--extra-large-text);
+      padding-top: var(--extra-large-spacing);
+    }
+
+    .subhead {
+      font-size: var(--medium-text);
+    }
+
+    .button-link {
+
+      button,
+      button::before,
+      button::after {
+        font-size: var(--x-small-text);
+      }
     }
   }
 }
