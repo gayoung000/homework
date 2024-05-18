@@ -3,16 +3,15 @@
 @import url(/apple/apple/styles/theme.css);
 
 /* 카드 컴포넌트 스타일 */
-
 .card-wrapper {
-  width: 100vw;
+  /* width: 100vw; */
+  /* 첨에 100vw 로 했다가 그리드가 이상하게 먹음.. 이걸로 1시간 날림..*/
+  width: 100%;
   height: var(--size);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   /* 배경 이미지 스타일 */
-  /* background: image-set(url(/apple/apple/products/ipad_pro.jpeg) 1x,
-      url(/apple/apple/products/ipad_pro_2x.jpeg) 2x); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
