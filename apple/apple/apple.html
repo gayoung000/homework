@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple</title>
-    <link rel="icon" href="./favicon/apple-favicon.svg" />
-    <link rel="apple-touch-icon" href="./favicon/apple-favicon.svg" />
-    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles/apple.css" />
-  </head>
-  <body>
-    <!-- 카드 레이아웃 -->
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple</title>
+  <link rel="icon" href="./favicon/apple-favicon.svg" />
+  <link rel="apple-touch-icon" href="./favicon/apple-favicon.svg" />
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/apple.css" />
+</head>
+
+<body>
+  <!-- 카드 레이아웃 -->
+  <!--main-container은 메인 그리드를 위한 것-->
+  <!--box, card-wrapper은 flex를 위한 것-->
+  <div class="main-container">
+    <div class="box">
+      <div class="card-wrapper">
+        <a href="/" class="card-link-wrapper" target="_self" aria-hidden="true"></a>
+        <article class="card-text-wrapper">
+          <h2>iPad Pro</h2>
+          <p class="subhead">놀라우리만치 얇다.
+            <br class="br-small">엄청나게 강력하다.
+          </p>
+          <p class="callout">출시일 추후 공개</p>
+          <div class="button-link">
+            <button class="more-button" type="button" onclick="location.href='/'">더 알아보기</button>
+            <button class="price-button" type="button" onclick="location.href='/'">가격 보기</button>
+          </div>
+        </article>
+        <div class="card-image-wrapper">
+          <figure class="card-image card-image-ipad-air"></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
