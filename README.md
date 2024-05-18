@@ -5,8 +5,8 @@
 
 
 ## 1차 과제 : 
--> [Avatars](https://github.com/gayoung000/homework/tree/main/avatars)
+-> [Avatars](https://github.com/gayoung000/homework/blob/main/avatars/avatars.md)
 
 
 ## 2차 과제 : 
--> [Navar](https://github.com/gayoung000/homework/tree/main/avatars)
+-> [Navar](https://github.com/gayoung000/homework/blob/main/naver/naver.md)

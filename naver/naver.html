@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet" />
   <link rel="stylesheet" href="/naver/naver.css" />
   <title>네이버</title>
 </head>
@@ -22,7 +23,7 @@
 
     <!--로그인 폼-->
     <form action="/" class="login-form-container">
-      <!--아이디, 비밀번호-->
+      <!--아이디, 비밀번호 컴포넌트-->
       <container class="input-form-group">
         <div class="input-form" role="group">
           <label for="login-email" class="sr-only">아이디</label>
@@ -34,18 +35,23 @@
         </div>
       </container>
 
-      <!--로그인 상태 체크박스-->
-      <div class="keep-login checkbox-form" role="group">
-        <input type="checkbox" id="keep-login" />
-        <label for="keep-login">로그인 상태유지</label>
+
+      <!--로그인 옵션 그룹-->
+      <div class="option-form-group">
+        <!--로그인 상태유지-->
+        <div class="checkbox-form keep-login" role="group">
+          <input type="checkbox" id="keep-login" />
+          <label for="keep-login">로그인 상태유지</label>
+        </div>
+        <!--IP 보안-->
+        <div class="checkbox-form ip-security" role="group">
+          <a href="./ip_security.html">IP 보안</a>
+          <input type="checkbox" id="ip-security" /><label for="ip-security"></label>
+          <label for="ip-security" class="sr-only">IP 보안</label>
+        </div>
       </div>
 
-      <!--IP 보안 -->
-      <div class="ip-security checkbox-form" role="group">
-        <a href="./ip_security.html">IP 보안</a>
-        <input type="checkbox" id="ip-security" /><label for="ip-security"></label>
-      </div>
-
+      <!--버튼-->
       <button type="submit" class="button-form">로그인</button>
     </form>
   </section>
