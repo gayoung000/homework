@@ -21,5 +21,5 @@
 ## 과제 설계
 ### 카드 컴포넌트화
 먼저 카드 컴포넌트 하나를 만들었다.<br>
-![카드 컴포넌트](https://github.com/gayoung000/homework/issues/1#issue-2304063747)
+![카드 컴포넌트](https://github.com/gayoung000/homework/blob/main/readme_images/apple/card_component.gif)
 
