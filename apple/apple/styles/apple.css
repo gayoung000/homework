@@ -62,22 +62,67 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+    /* 흰 카드 스타일 지정 */
+    .white-b {
+      color: var(--black);
+
+      .more-button {
+        background-color: var(--black);
+      }
+
+      .price-button {
+        color: var(--black);
+        background-color: transparent;
+        border: 1px solid var(--black);
+
+        &:hover {
+          background-color: var(--black);
+          color: var(--white);
+        }
+      }
+    }
+
+    /* full 카드 스타일 지정 */
+    .card-1,
+    .card-2,
+    .card-3 {
+      grid-column: 1 / -1;
+    }
+
     .card-1 {
       background-image: image-set(url(../products/ipad_pro_wide.jpeg) 1x,
           url(../products/ipad_pro_wide_2x.jpeg) 2x);
-      grid-column: 1 / -1;
     }
 
     .card-2 {
       background-image: image-set(url(../products/ipad_air_wide.jpeg) 1x,
           url(../products/ipad_air_wide_2x.jpeg) 2x);
-      grid-column: 1 / -1;
     }
 
     .card-3 {
       background-image: image-set(url(../products/iphone15_pro_wide.jpeg) 1x,
           url(../products/iphone15_pro_wide_2x.jpeg) 2x);
-      grid-column: 1 / -1;
+    }
+  }
+
+  /* 폰트 크기 및 여백 지정 */
+  .card-text-wrapper {
+    h2 {
+      font-size: var(--extra-large-text);
+      padding-top: var(--extra-large-spacing);
+    }
+
+    .subhead {
+      font-size: var(--medium-text);
+    }
+
+    .button-link {
+
+      button,
+      button::before,
+      button::after {
+        font-size: var(--x-small-text);
+      }
     }
   }
 }
