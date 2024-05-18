@@ -72,4 +72,4 @@
 * 카드 범위 내 어디를 눌러도 link로 연결되게 하기(추가로 하면 좋을 것!)
 * navigation 바 만들기(추가로 하면 좋을 것!)<br>
 
-![최종](https://github.com/gayoung000/homework/blob/main/readme_images/apple/최종2.gif)
+<img src="https://github.com/gayoung000/homework/blob/main/readme_images/apple/최종2.gif" width="80%" height="80%"/><br>
