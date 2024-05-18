@@ -21,7 +21,7 @@
 ## 과제 설계
 1. 먼저 Small Screen을 기본 공통 레이아웃으로 삼아 설계했다.
 2. 카드 컴포넌트화를 위해 html 구조를 짰다. 최대한 시맨틱한 마크업을 하려 했다.<br>
-![HTML 구조](https://github.com/gayoung000/homework/blob/main/readme_images/apple/html구조.jpeg)
+<img src="https://github.com/gayoung000/homework/blob/main/readme_images/apple/html구조.jpeg" width="25%" height="25%"/>
 
 ### 카드 컴포넌트화
 먼저 카드 컴포넌트 하나를 만들었다.<br>
