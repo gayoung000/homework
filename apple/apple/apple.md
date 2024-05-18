@@ -28,6 +28,7 @@
 ![카드 컴포넌트](https://github.com/gayoung000/homework/blob/main/readme_images/apple/card_component.gif)
 
 <br>
+
 ### 그리드 레이아웃
 먼저 카드 컴포넌트 하나를 만들었다.<br>
 ![그리드1](https://github.com/gayoung000/homework/blob/main/readme_images/apple/그리드1.png) 
